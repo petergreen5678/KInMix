@@ -1,0 +1,50 @@
+export("as.gt",
+       "as.IBD",
+       "checkpeaks",
+       "convertIBD",
+       "delete.DQnodes",
+       "gt2aca",
+       "intoMix",
+       "loop.rpt.IBD",
+       "make.profile",
+       "pedigreeIBD",
+       "plot.IBD",
+       "protected",
+       "protected.mixML",
+       "rGTs",
+       "replace.Ui.tables",
+       "replace.tables.for.UAF",
+       "require.compiled",
+       "rni",
+       "rpt.AMEL",
+       "rpt.IBD",
+       "rpt.typed.child",
+       "rpt.typed.parents",
+       "rpt.typed.relative",
+       "rpt.typed.relatives",
+       "rpt.UAF",
+       "size",
+       "wlr",
+       "add.child.meiosis.nodes",
+       "add.motherchild.likd.node",
+       "add.relative.likd.node",
+       "expr.make.findings",
+       "logLX",
+       "logL.UKX",
+       "mixMLX"
+)
+
+S3method(plot,IBD)
+S3method(print,IBD)
+S3method(print,tablesize)
+
+import(DNAmixtures)
+importFrom(graphics,lines,points,text,par)
+importFrom(methods,is)
+importFrom(pedtools,is.ped,is.pedList,ped,ancestors)
+importFrom(ribd,minimalPattern)
+importFrom(Rsolnp,solnp)
+importFrom(statnet.common,order)
+importFrom(stats,dbinom,spline)
+importFrom(utils,tail,head,read.csv,write.csv)
+
